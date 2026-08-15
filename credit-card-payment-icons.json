@@ -108,6 +108,15 @@
     "mono_outline": "mono-outline/paypal.svg"
   },
   {
+    "name": "pix",
+    "flat": "flat/pix.svg",
+    "flat_rounded": "flat-rounded/pix.svg",
+    "logo": "logo/pix.svg",
+    "logo_border": "logo-border/pix.svg",
+    "mono": "mono/pix.svg",
+    "mono_outline": "mono-outline/pix.svg"
+  },
+  {
     "name": "unionpay",
     "flat": "flat/unionpay.svg",
     "flat_rounded": "flat-rounded/unionpay.svg",

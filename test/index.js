@@ -53,12 +53,13 @@ describe('credit card icons', function () {
         assert.isTrue(cc.icons('flat').has('mastercard'));
         assert.isTrue(cc.icons('flat').has('mir'));
         assert.isTrue(cc.icons('flat').has('paypal'));
+        assert.isTrue(cc.icons('flat').has('pix'));
         assert.isTrue(cc.icons('flat').has('unionpay'));
         assert.isTrue(cc.icons('flat').has('visa'));
       });
 
       it('should not include extra flat icons', function () {
-        assert.equal(cc.icons('flat').size, 17, 'no extra icons included');
+        assert.equal(cc.icons('flat').size, 18, 'no extra icons included');
       });
     });
 
@@ -83,12 +84,13 @@ describe('credit card icons', function () {
         assert.isTrue(cc.icons('flat-rounded').has('mastercard'));
         assert.isTrue(cc.icons('flat-rounded').has('mir'));
         assert.isTrue(cc.icons('flat-rounded').has('paypal'));
+        assert.isTrue(cc.icons('flat-rounded').has('pix'));
         assert.isTrue(cc.icons('flat-rounded').has('unionpay'));
         assert.isTrue(cc.icons('flat-rounded').has('visa'));
       });
 
       it('should not include extra flat-rounded icons', function () {
-        assert.equal(cc.icons('flat-rounded').size, 17, 'no extra icons included');
+        assert.equal(cc.icons('flat-rounded').size, 18, 'no extra icons included');
       });
     });
 
@@ -113,12 +115,13 @@ describe('credit card icons', function () {
         assert.isTrue(cc.icons('mono').has('mastercard'));
         assert.isTrue(cc.icons('mono').has('mir'));
         assert.isTrue(cc.icons('mono').has('paypal'));
+        assert.isTrue(cc.icons('mono').has('pix'));
         assert.isTrue(cc.icons('mono').has('unionpay'));
         assert.isTrue(cc.icons('mono').has('visa'));
       });
 
       it('should not include extra mono icons', function () {
-        assert.equal(cc.icons('mono').size, 17, 'no extra icons included');
+        assert.equal(cc.icons('mono').size, 18, 'no extra icons included');
       });
     });
 
@@ -143,12 +146,13 @@ describe('credit card icons', function () {
         assert.isTrue(cc.icons('mono-outline').has('mastercard'));
         assert.isTrue(cc.icons('mono-outline').has('mir'));
         assert.isTrue(cc.icons('mono-outline').has('paypal'));
+        assert.isTrue(cc.icons('mono-outline').has('pix'));
         assert.isTrue(cc.icons('mono-outline').has('unionpay'));
         assert.isTrue(cc.icons('mono-outline').has('visa'));
       });
 
       it('should not include extra mono-outline icons', function () {
-        assert.equal(cc.icons('mono-outline').size, 17, 'no extra icons included');
+        assert.equal(cc.icons('mono-outline').size, 18, 'no extra icons included');
       });
     });
 
@@ -173,12 +177,13 @@ describe('credit card icons', function () {
         assert.isTrue(cc.icons('logo').has('mastercard'));
         assert.isTrue(cc.icons('logo').has('mir'));
         assert.isTrue(cc.icons('logo').has('paypal'));
+        assert.isTrue(cc.icons('logo').has('pix'));
         assert.isTrue(cc.icons('logo').has('unionpay'));
         assert.isTrue(cc.icons('logo').has('visa'));
       });
 
       it('should not include extra logo icons', function () {
-        assert.equal(cc.icons('logo').size, 17, 'no extra icons included');
+        assert.equal(cc.icons('logo').size, 18, 'no extra icons included');
       });
     });
 
@@ -203,12 +208,13 @@ describe('credit card icons', function () {
         assert.isTrue(cc.icons('logo-border').has('mastercard'));
         assert.isTrue(cc.icons('logo-border').has('mir'));
         assert.isTrue(cc.icons('logo-border').has('paypal'));
+        assert.isTrue(cc.icons('logo-border').has('pix'));
         assert.isTrue(cc.icons('logo-border').has('unionpay'));
         assert.isTrue(cc.icons('logo-border').has('visa'));
       });
 
       it('should not include extra logo-border icons', function () {
-        assert.equal(cc.icons('logo-border').size, 17, 'no extra icons included');
+        assert.equal(cc.icons('logo-border').size, 18, 'no extra icons included');
       });
     });
   });
