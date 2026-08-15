@@ -20,6 +20,7 @@ import flatMaestro from '../flat/maestro.svg';
 import flatMastercard from '../flat/mastercard.svg';
 import flatMir from '../flat/mir.svg';
 import flatPaypal from '../flat/paypal.svg';
+import flatPix from '../flat/pix.svg';
 import flatUnionpay from '../flat/unionpay.svg';
 import flatVisa from '../flat/visa.svg';
 
@@ -38,6 +39,7 @@ import flatRoundedMaestro from '../flat-rounded/maestro.svg';
 import flatRoundedMastercard from '../flat-rounded/mastercard.svg';
 import flatRoundedMir from '../flat-rounded/mir.svg';
 import flatRoundedPaypal from '../flat-rounded/paypal.svg';
+import flatRoundedPix from '../flat-rounded/pix.svg';
 import flatRoundedUnionpay from '../flat-rounded/unionpay.svg';
 import flatRoundedVisa from '../flat-rounded/visa.svg';
 
@@ -56,6 +58,7 @@ import monoMaestro from '../mono/maestro.svg';
 import monoMastercard from '../mono/mastercard.svg';
 import monoMir from '../mono/mir.svg';
 import monoPaypal from '../mono/paypal.svg';
+import monoPix from '../mono/pix.svg';
 import monoUnionpay from '../mono/unionpay.svg';
 import monoVisa from '../mono/visa.svg';
 
@@ -74,6 +77,7 @@ import monoOutlineMaestro from '../mono-outline/maestro.svg';
 import monoOutlineMastercard from '../mono-outline/mastercard.svg';
 import monoOutlineMir from '../mono-outline/mir.svg';
 import monoOutlinePaypal from '../mono-outline/paypal.svg';
+import monoOutlinePix from '../mono-outline/pix.svg';
 import monoOutlineUnionpay from '../mono-outline/unionpay.svg';
 import monoOutlineVisa from '../mono-outline/visa.svg';
 
@@ -92,6 +96,7 @@ import logoMaestro from '../logo/maestro.svg';
 import logoMastercard from '../logo/mastercard.svg';
 import logoMir from '../logo/mir.svg';
 import logoPaypal from '../logo/paypal.svg';
+import logoPix from '../logo/pix.svg';
 import logoUnionpay from '../logo/unionpay.svg';
 import logoVisa from '../logo/visa.svg';
 
@@ -110,6 +115,7 @@ import logoBorderMaestro from '../logo-border/maestro.svg';
 import logoBorderMastercard from '../logo-border/mastercard.svg';
 import logoBorderMir from '../logo-border/mir.svg';
 import logoBorderPaypal from '../logo-border/paypal.svg';
+import logoBorderPix from '../logo-border/pix.svg';
 import logoBorderUnionpay from '../logo-border/unionpay.svg';
 import logoBorderVisa from '../logo-border/visa.svg';
 
@@ -137,6 +143,7 @@ const availableIcons = {
     'mastercard': flatMastercard,
     'mir': flatMir,
     'paypal': flatPaypal,
+    'pix': flatPix,
     'unionpay': flatUnionpay,
     'visa': flatVisa,
   },
@@ -156,6 +163,7 @@ const availableIcons = {
     'mastercard': flatRoundedMastercard,
     'mir': flatRoundedMir,
     'paypal': flatRoundedPaypal,
+    'pix': flatRoundedPix,
     'unionpay': flatRoundedUnionpay,
     'visa': flatRoundedVisa,
   },
@@ -175,6 +183,7 @@ const availableIcons = {
     'mastercard': monoMastercard,
     'mir': monoMir,
     'paypal': monoPaypal,
+    'pix': monoPix,
     'unionpay': monoUnionpay,
     'visa': monoVisa,
   },
@@ -194,6 +203,7 @@ const availableIcons = {
     "mastercard": monoOutlineMastercard,
     "mir": monoOutlineMir,
     "paypal": monoOutlinePaypal,
+    "pix": monoOutlinePix,
     "unionpay": monoOutlineUnionpay,
     "visa": monoOutlineVisa,
   },
@@ -213,6 +223,7 @@ const availableIcons = {
     "mastercard": logoMastercard,
     "mir": logoMir,
     "paypal": logoPaypal,
+    "pix": logoPix,
     "unionpay": logoUnionpay,
     "visa": logoVisa,
   },
@@ -232,6 +243,7 @@ const availableIcons = {
     "mastercard": logoBorderMastercard,
     "mir": logoBorderMir,
     "paypal": logoBorderPaypal,
+    "pix": logoBorderPix,
     "unionpay": logoBorderUnionpay,
     "visa": logoBorderVisa,
   },
